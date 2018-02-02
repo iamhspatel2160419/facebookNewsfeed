@@ -7,17 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E04B794C2022DB390053E94A /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04B794B2022DB390053E94A /* ExternalAccessory.framework */; };
+		E04B794E2022DB420053E94A /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04B794D2022DB420053E94A /* HomeKit.framework */; };
+		E04B79502022DB430053E94A /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04B794F2022DB430053E94A /* HealthKit.framework */; };
+		E04B79522022DB470053E94A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04B79512022DB470053E94A /* AudioToolbox.framework */; };
+		E04B79542022DB510053E94A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E04B79532022DB510053E94A /* MapKit.framework */; };
+		E060FB892021A6C000589614 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E060FB882021A6C000589614 /* PostCell.swift */; };
+		E076E0C420234BA200D7040F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076E0C320234BA100D7040F /* Post.swift */; };
+		E076E0C620234F2500D7040F /* NewsFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076E0C520234F2500D7040F /* NewsFeedTableViewController.swift */; };
+		E09E68B32024252800DED45F /* Simulator Screen Shot - iPhone 6 - 2018-02-01 at 20.37.52.png in Resources */ = {isa = PBXBuildFile; fileRef = E09E68B22024252500DED45F /* Simulator Screen Shot - iPhone 6 - 2018-02-01 at 20.37.52.png */; };
+		E09E68B52024253600DED45F /* Simulator Screen Shot - iPhone 6 - 2018-02-01 at 20.40.13.png in Resources */ = {isa = PBXBuildFile; fileRef = E09E68B42024253600DED45F /* Simulator Screen Shot - iPhone 6 - 2018-02-01 at 20.40.13.png */; };
+		E09E68B72024254000DED45F /* Simulator Screen Shot - iPhone 6 - 2018-02-01 at 20.37.32.png in Resources */ = {isa = PBXBuildFile; fileRef = E09E68B62024254000DED45F /* Simulator Screen Shot - iPhone 6 - 2018-02-01 at 20.37.32.png */; };
 		E0A0243F202095AC0000272E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A0243E202095AC0000272E /* AppDelegate.swift */; };
-		E0A02441202095AC0000272E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A02440202095AC0000272E /* ViewController.swift */; };
 		E0A02444202095AC0000272E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A02442202095AC0000272E /* Main.storyboard */; };
 		E0A02446202095AC0000272E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0A02445202095AC0000272E /* Assets.xcassets */; };
 		E0A02449202095AC0000272E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A02447202095AC0000272E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E04B79492022DB280053E94A /* facebookNewsfeed.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = facebookNewsfeed.entitlements; sourceTree = "<group>"; };
+		E04B794B2022DB390053E94A /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		E04B794D2022DB420053E94A /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		E04B794F2022DB430053E94A /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		E04B79512022DB470053E94A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E04B79532022DB510053E94A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E060FB882021A6C000589614 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		E076E0C320234BA100D7040F /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		E076E0C520234F2500D7040F /* NewsFeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedTableViewController.swift; sourceTree = "<group>"; };
+		E09E68B22024252500DED45F /* Simulator Screen Shot - iPhone 6 - 2018-02-01 at 20.37.52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 6 - 2018-02-01 at 20.37.52.png"; sourceTree = "<group>"; };
+		E09E68B42024253600DED45F /* Simulator Screen Shot - iPhone 6 - 2018-02-01 at 20.40.13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 6 - 2018-02-01 at 20.40.13.png"; sourceTree = "<group>"; };
+		E09E68B62024254000DED45F /* Simulator Screen Shot - iPhone 6 - 2018-02-01 at 20.37.32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 6 - 2018-02-01 at 20.37.32.png"; sourceTree = "<group>"; };
 		E0A0243B202095AC0000272E /* facebookNewsfeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = facebookNewsfeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A0243E202095AC0000272E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E0A02440202095AC0000272E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E0A02443202095AC0000272E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0A02445202095AC0000272E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0A02448202095AC0000272E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -29,17 +50,82 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E04B79502022DB430053E94A /* HealthKit.framework in Frameworks */,
+				E04B794E2022DB420053E94A /* HomeKit.framework in Frameworks */,
+				E04B79542022DB510053E94A /* MapKit.framework in Frameworks */,
+				E04B794C2022DB390053E94A /* ExternalAccessory.framework in Frameworks */,
+				E04B79522022DB470053E94A /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E04B794A2022DB390053E94A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E04B79532022DB510053E94A /* MapKit.framework */,
+				E04B79512022DB470053E94A /* AudioToolbox.framework */,
+				E04B794F2022DB430053E94A /* HealthKit.framework */,
+				E04B794D2022DB420053E94A /* HomeKit.framework */,
+				E04B794B2022DB390053E94A /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E09E68B82024255B00DED45F /* Snapshots */ = {
+			isa = PBXGroup;
+			children = (
+				E09E68B22024252500DED45F /* Simulator Screen Shot - iPhone 6 - 2018-02-01 at 20.37.52.png */,
+				E09E68B62024254000DED45F /* Simulator Screen Shot - iPhone 6 - 2018-02-01 at 20.37.32.png */,
+				E09E68B42024253600DED45F /* Simulator Screen Shot - iPhone 6 - 2018-02-01 at 20.40.13.png */,
+			);
+			path = Snapshots;
+			sourceTree = "<group>";
+		};
+		E09E68B92024258200DED45F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E0A02442202095AC0000272E /* Main.storyboard */,
+				E060FB882021A6C000589614 /* PostCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E09E68BA202425A500DED45F /* OtherStuff */ = {
+			isa = PBXGroup;
+			children = (
+				E04B79492022DB280053E94A /* facebookNewsfeed.entitlements */,
+				E0A0243E202095AC0000272E /* AppDelegate.swift */,
+				E0A02445202095AC0000272E /* Assets.xcassets */,
+				E0A02447202095AC0000272E /* LaunchScreen.storyboard */,
+				E0A0244A202095AC0000272E /* Info.plist */,
+			);
+			path = OtherStuff;
+			sourceTree = "<group>";
+		};
+		E09E68BB202425B900DED45F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E076E0C320234BA100D7040F /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E09E68BC202425C100DED45F /* Contoller */ = {
+			isa = PBXGroup;
+			children = (
+				E076E0C520234F2500D7040F /* NewsFeedTableViewController.swift */,
+			);
+			path = Contoller;
+			sourceTree = "<group>";
+		};
 		E0A02432202095AC0000272E = {
 			isa = PBXGroup;
 			children = (
 				E0A0243D202095AC0000272E /* facebookNewsfeed */,
 				E0A0243C202095AC0000272E /* Products */,
+				E04B794A2022DB390053E94A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +140,11 @@
 		E0A0243D202095AC0000272E /* facebookNewsfeed */ = {
 			isa = PBXGroup;
 			children = (
-				E0A0243E202095AC0000272E /* AppDelegate.swift */,
-				E0A02440202095AC0000272E /* ViewController.swift */,
-				E0A02442202095AC0000272E /* Main.storyboard */,
-				E0A02445202095AC0000272E /* Assets.xcassets */,
-				E0A02447202095AC0000272E /* LaunchScreen.storyboard */,
-				E0A0244A202095AC0000272E /* Info.plist */,
+				E09E68B82024255B00DED45F /* Snapshots */,
+				E09E68BB202425B900DED45F /* Model */,
+				E09E68B92024258200DED45F /* Views */,
+				E09E68BA202425A500DED45F /* OtherStuff */,
+				E09E68BC202425C100DED45F /* Contoller */,
 			);
 			path = facebookNewsfeed;
 			sourceTree = "<group>";
@@ -97,6 +182,35 @@
 					E0A0243A202095AC0000272E = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,7 +237,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E09E68B52024253600DED45F /* Simulator Screen Shot - iPhone 6 - 2018-02-01 at 20.40.13.png in Resources */,
 				E0A02449202095AC0000272E /* LaunchScreen.storyboard in Resources */,
+				E09E68B32024252800DED45F /* Simulator Screen Shot - iPhone 6 - 2018-02-01 at 20.37.52.png in Resources */,
+				E09E68B72024254000DED45F /* Simulator Screen Shot - iPhone 6 - 2018-02-01 at 20.37.32.png in Resources */,
 				E0A02446202095AC0000272E /* Assets.xcassets in Resources */,
 				E0A02444202095AC0000272E /* Main.storyboard in Resources */,
 			);
@@ -136,8 +253,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0A02441202095AC0000272E /* ViewController.swift in Sources */,
 				E0A0243F202095AC0000272E /* AppDelegate.swift in Sources */,
+				E060FB892021A6C000589614 /* PostCell.swift in Sources */,
+				E076E0C620234F2500D7040F /* NewsFeedTableViewController.swift in Sources */,
+				E076E0C420234BA200D7040F /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,11 +393,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = facebookNewsfeed/facebookNewsfeed.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZNAGJ6S26B;
 				INFOPLIST_FILE = facebookNewsfeed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hpIos.facebookNewsfeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,11 +412,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = facebookNewsfeed/facebookNewsfeed.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZNAGJ6S26B;
 				INFOPLIST_FILE = facebookNewsfeed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hpIos.facebookNewsfeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
